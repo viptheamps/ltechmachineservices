@@ -1,0 +1,76 @@
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+    .layout_padding,
+    .layout_padding2,
+    .layout_padding2-top,
+    .layout_padding2-bottom,
+    .layout_padding-top,
+    .layout_padding-bottom {
+      padding: 60px 0; /* Adjust padding for smaller screens */
+    }
+  
+    .heading_container h2 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+    }
+  
+    /* Adjust header section styles */
+    .header_section .header_top,
+    .header_section .header_bottom {
+      padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+  
+    .navbar-brand {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  
+    .custom_nav-container .navbar-toggler {
+      width: 40px;
+      height: 40px; /* Adjust size of navbar toggler for smaller screens */
+    }
+  
+    .custom_nav-container .navbar-toggler span {
+      width: 30px;
+      height: 4px; /* Adjust size of navbar toggler icon for smaller screens */
+      margin: 6px 0; /* Adjust spacing for smaller screens */
+    }
+  
+    /* Adjust slider section styles */
+    .slider_section .detail-box h1 {
+      font-size: 28px; /* Adjust font size for smaller screens */
+      margin-bottom: 10px; /* Adjust margin for smaller screens */
+    }
+  
+    .slider_section .detail-box .btn-box a {
+      width: 140px; /* Adjust button width for smaller screens */
+    }
+  
+    /* Adjust service section styles */
+    .service_section .box {
+      margin: 5px; /* Adjust margin for smaller screens */
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .service_section .btn-box a {
+      padding: 10px 30px; /* Adjust button padding for smaller screens */
+    }
+  
+    /* Adjust contact section styles */
+    .contact_section .form_container {
+      padding: 25px; /* Adjust padding for smaller screens */
+    }
+  
+    .contact_section .form_container .form-control,
+    .contact_section .form_container .btn_box button {
+      padding: 12px; /* Adjust input and button padding for smaller screens */
+    }
+  
+    /* Adjust info section styles */
+    .info_section .info_form input {
+      height: 40px; /* Adjust input height for smaller screens */
+    }
+  
+    .info_section .info_form button {
+      padding: 10px 30px; /* Adjust button padding for smaller screens */
+    }
+  }
+  
